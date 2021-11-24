@@ -4,9 +4,9 @@
     left:25%;
    margin-top: 30px;
     border-radius: 10px;
-    background:darkseagreen;
+    background:rgba(136, 138, 10, 0.61);
     text-align: center;
-    color: white;
+    color: black;
     padding: auto;
     width: 50%;
     height: 250px;
@@ -16,5 +16,18 @@
     .form-control{
         margin: 10px;
     }
-    
+    .button{
+        color: black;
+        width: 100px;
+        background-color: blue;
+        border-radius: 5px;
+    }
+    .button:hover{
+        opacity: 0.8;
+    }
+    .file{
+        width: 300px;
+       
+    }
+   
 }

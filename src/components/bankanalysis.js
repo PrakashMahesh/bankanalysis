@@ -15,15 +15,18 @@ function BankStatementAnalysis(){
     const [bankAnalysis, setBankAnalysis] = useState(BANK_ANALYSIS);
 
     let bankAnalysisElm= bankAnalysis.bankAnalysisFields.map((bankAnalysisField,index)=>
-    <div>
+    <div className="bankform">
         <Element key={index} fields={bankAnalysisField} />
         {console.log(bankAnalysisField)}
     </div>)
 	return(
+        <div>
         <Row className="form">
         {bankAnalysisElm}
-   <BankChart></BankChart>
+   
         </Row>
+        <BankChart></BankChart>
+        </div>
 	)
 }
 export default BankStatementAnalysis;

@@ -28,10 +28,10 @@ function FileUploadPage(){
         <Form >
         <Form.Group className="" >
               <Form.Label ><h1>Bank statement Analysis</h1></Form.Label>
-              <Form.Control type="file" name="file" id="password"  onChange={changeHandler}  />
+              <Form.Control className="file" type="file" name="file" id="password"  onChange={changeHandler}  />
              
             </Form.Group>
-            <Button onClick={handleSubmission} >
+            <Button className="button" onClick={handleSubmission} >
               Submit
             </Button>
           </Form>

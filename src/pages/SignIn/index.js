@@ -47,7 +47,7 @@ export default function SignIn({ location }) {
             </Form.Group>
             </Col>
             </Row>
-            <Button type="submit">
+            <Button className="button" type="submit">
               Login
             </Button>
           </Form>
