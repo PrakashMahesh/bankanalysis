@@ -1,0 +1,20 @@
+
+.signin-form{
+    position: relative;
+    left:25%;
+   margin-top: 30px;
+    border-radius: 10px;
+    background:darkseagreen;
+    text-align: center;
+    color: white;
+    padding: auto;
+    width: 50%;
+    height: 250px;
+    .form-label{
+        margin-right: 10px;
+    }
+    .form-control{
+        margin: 10px;
+    }
+    
+}
