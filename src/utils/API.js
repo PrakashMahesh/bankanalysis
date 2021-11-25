@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const instance = axios.create({
-    baseURL: yoururl,
+    baseURL: "http://10.0.0.6:8000/api/",
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json,application/pdf',
